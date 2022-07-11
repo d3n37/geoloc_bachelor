@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Данные о геолокации - "И где я?"</string>
+    <string name="creator">(c) Борщенко Д. М4О-409Б-18, 2022 г.</string>
+    <string name="greet">Введите данные о расстоянии</string>
+    <string name="lat1">Широта</string>
+    <string name="lon1">Долгота</string>
+    <string name="rst1">Расстояние до пользователя</string>
+    <string name="enterTxt">Внести данные о текущей точке</string>
+    <string name="finishTxt">Завершить ввод и рассчитать координаты</string>
+    <string name="et">hello</string>
+    <string name="error">Ошибка определения геолокации</string>
+    <string name="calcul">Рассчитанная позиция искомого пользователя:</string>
+    <string name="calcul_result">Широта: 0.0, Долгота: 0.0</string>
+    <string name="clearTxt">Удалить все ранее введенные данные</string>
+</resources>

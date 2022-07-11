@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/widget32"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.yandex.mapkit.mapview.MapView
+        android:id="@+id/mapview"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="20"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/greettxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/greet"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/rasst1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/rst1"
+                android:inputType="number|numberDecimal"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                tools:ignore="TouchTargetSizeCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            android:layout_weight="1"
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="onBtnClick"
+                android:text="@string/enterTxt"
+                android:textColor="#4A148C"
+                tools:ignore="UsingOnClickInXml"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onClearClick"
+                android:text="@string/clearTxt"
+                android:textColor="#4A148C"
+                tools:ignore="UsingOnClickInXml"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:onClick="onFinishClick"
+            android:text="@string/finishTxt"
+            android:textColor="#4A148C"
+            tools:ignore="UsingOnClickInXml" />
+
+        <TextView
+            android:id="@+id/calcul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/calcul"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/calcul_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/calcul_result"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+</LinearLayout>
