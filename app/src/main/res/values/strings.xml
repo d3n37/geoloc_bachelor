@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Данные о геолокации - "И где я?"</string>
-    <string name="creator">(c) Борщенко Д. М4О-409Б-18, 2022 г.</string>
+    <string name="creator">(c) d3n37 m4o-409b-18, 2022 г.</string>
     <string name="greet">Введите данные о расстоянии</string>
     <string name="lat1">Широта</string>
     <string name="lon1">Долгота</string>
