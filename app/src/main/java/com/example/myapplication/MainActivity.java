@@ -231,7 +231,7 @@ public class MainActivity extends AppCompatActivity implements UserLocationObjec
         clc_result.setText("Широта: " + ccentroid[0] + ", Долгота: " + ccentroid[1]);
         //double[] standardDeviation = optimum.getSigma(0);
     }
-
+    /*
     public void TestCords(){
         cord.clear();
         //Тестовый набор данных - 19 позиций. Тверской район, ЦАО, г.Москва
@@ -256,6 +256,7 @@ public class MainActivity extends AppCompatActivity implements UserLocationObjec
         cord.add(new Coordinate<>(55.765772, 37.599638, 500.0));
         cord.add(new Coordinate<>(55.764243, 37.602004, 500.0));
     }
+    */
 }
 
 class Coordinate<T1, T2, T3> {
